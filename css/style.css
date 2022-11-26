@@ -1,0 +1,450 @@
+* {box-sizing: border-box;}
+
+html {
+    scroll-behavior: smooth;
+
+    }
+
+body {background-color: #FCFCFB;
+    font-family: 'Mulish', sans-serif; 
+    color: #14243C; 
+    font-weight: 300;
+    line-height: 1.7;
+    font-size: 18px; 
+}
+
+img {width: 100%;
+  margin:auto;
+
+}
+
+h1 {font-family: 'Raleway', sans-serif; 
+    font-weight: 600; 
+    font-size: 1.8em; 
+    color: #14243C;
+}
+
+h2 {font-family: 'Raleway', sans-serif; 
+    font-weight: 600; 
+    font-size: 1.5em; 
+    color: #14243C;
+}
+    
+h3 {font-family: 'Raleway', sans-serif; 
+    font-weight: 600; 
+    font-size: 1.25em; 
+    color: #14243C;
+}
+
+
+a {color: #3C516F;
+    text-decoration: underline;
+   
+  }
+
+a:hover {color:#B0C0D6;
+        text-decoration: underline; 
+    }
+
+a:active { /* selected link */
+        color: #B0C0D6; 
+        text-decoration: underline;
+    }
+
+
+
+/* Layout universal styling */
+.container {
+    max-width: 1200px;
+    padding: 15px 15px 0px 15px;
+   margin: 0px auto;
+}
+
+
+
+.lila-bg {
+background-color: #D8D2FD;} 
+
+.logo {max-width: 60px;
+       float: left;
+       
+}
+
+
+header {position:fixed; 
+    top: 0;
+    right: 0;
+    width: 100% ;
+    background-color: #FCFCFB;
+    -webkit-box-shadow: -1px -1px 10px 0px rgba(33, 33, 33, 0.46);
+    -moz-box-shadow:    -1px -1px 10px 0px rgba(33, 33, 33, 0.46);
+    box-shadow:         -1px -1px 10px 0px rgba(33, 33, 33, 0.46);
+    z-index: 4;
+
+}
+
+
+main {padding-top: 50px;
+    
+
+} /**not sure what this is for, I' like to erase the white space 
+between the hero section and the nav bar**/
+
+
+nav {display: inline; 
+    float: right;
+    margin-top: 15px;
+}
+    
+
+nav > ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+nav > ul > li {
+    display: inline-block; 
+    
+  }
+
+nav > ul > li > a {
+    padding: 0 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    color: #4a4a4a;
+  }
+
+nav > ul > li > a:hover {color:#B0C0D6;
+    text-decoration: none;
+}
+
+nav > ul > li > a:active {color:#B0C0D6;
+    text-decoration: none;
+}
+
+
+.caption {font-size: 14px;
+}
+
+.dark-blue{color: #14243C}
+.light-text {color: #FCFCFB;}
+.blue-text {color: #5F5FF9;}
+.lila-bg {background-color: #EDEAFF;}
+.grey-bg{background-color: #F6F6F6;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  
+    
+
+}
+
+
+.button {
+    display: inline-block;
+    background-color: #14243C;
+    color: #F5F5F5;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.85em;
+    margin-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 6px;
+    transition: 0.4s opacity;}
+
+.button:hover {
+        opacity: 0.8; /* Reduces the opacity of the button to 80% */
+        text-decoration: none;
+        color: #ffffff;
+      }
+     
+.button:active {
+        opacity: 0.8; /* Reduces the opacity of the button to 80% */
+        text-decoration: none;}
+
+    
+.highlighted-text {
+             
+            display:inline;
+            background-image: linear-gradient(
+              transparent 60%,
+              #D8D2FD 60%
+            );
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-position: top center;}
+
+
+.row {
+    width: 100%;
+    margin-bottom: 25px;}
+
+footer svg {
+    fill: #ffffff;
+    }
+    
+.margin {margin-top: 15px;}
+
+
+/** styling index.html **/
+
+/** hero section **/
+
+.img-glo {
+    width: 150px;
+    height: 150px;
+}
+
+
+
+#hero {
+    background-color: #F5F5F5;
+    
+    padding-top: 50px;
+    display: inline-block;
+    width: 100%;
+  }
+
+
+
+/** work section **/
+
+#work .row { padding-bottom: 15px; }
+
+
+
+/** footer section **/
+
+#contact {background-color: #14243C; 
+    color: #FCFCFB; 
+    margin-top: 50px; 
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+/** styling about.html **/
+
+.img-about {max-width: 80%;}
+
+#glo-flip {float: left;}
+
+#about .grey-bg {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+/** styling frida.html **/
+
+#head {
+    margin: auto;
+    padding: 15px 15px;
+    background-color: #EDEAFF;
+
+}
+
+
+
+
+.border {border-left: solid; 
+    border-width: 3px;
+    border-color: #14243C ;
+    padding-left: 25px ;
+    max-width: 90%;
+    display: block;
+    
+}
+
+.border span {display: block;}
+
+span {display: block;}
+
+.wrapper-img {
+    max-width: 60%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+
+#interview h3 {padding-left: 25px;}
+
+#interview {
+    
+    border-radius: 8px;
+    background-color: #F6F6F6;
+    padding: 10px 10px;
+    
+ 
+
+}
+
+.round-corner {border-radius: 10px;}
+
+.centered-element {
+    margin-top: 12%;
+  }
+
+
+
+
+  
+
+/*Media queries*/
+
+@media only screen and (min-width: 640px) {
+    [class*="col-"] {
+        float: left;
+        padding: 15px 15px;
+      }
+
+      .row::after {
+        content: "";
+        clear:both;
+        display: table;
+      }
+
+      .col-md-6 {
+        width: 50%;
+        padding-right: 15px;
+      }
+
+      .col-md-2 {
+        width: 16.66%;
+        padding: 0 20px;
+      }
+
+      .col-md-3 {
+        width: 25%;
+        padding: 0 20px;
+      }
+
+      .col-md-4 {
+        width: 33.33%;
+        padding: 0 20px;
+      }
+
+      .col-md-5 {width: 41.66%;}
+
+      .col-md-7 {width: 58.33%;}
+
+      .col-md-8 {
+        width: 70%;
+        padding: 0 20px;
+      }
+
+      .col-md-10 {
+        width: 83.33%;
+        padding-left: 40px;
+      }
+
+      .wrapper-img {
+        width: 70%;
+        margin: 0 auto;
+        
+    
+    }
+
+    .img-about {max-width: 80%;
+        float: left;
+    
+    
+    }
+
+  }
+
+
+
+
+@media only screen and (min-width: 1024px) {
+
+    .container {
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+    
+    .container2 {
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+      }  
+
+     .container3 {
+      max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+     } 
+
+
+
+      #glo-flip {float: left;
+        max-width: 300px;
+        margin-right: 20px;
+    
+    }
+
+    .wrapper-img {
+        width: 70%;
+        margin: auto;
+    
+    }
+
+
+    #about-page .row {padding: 0 ;
+       
+
+        
+    
+    }
+
+    .col-lg-2 {
+      width: 16.66%;
+      padding: 0 20px;
+    }
+
+    .col-lg-3 {width: 25%;}
+
+    .col-lg-4 {width: 33.33%;
+      padding: 0 0 0 4%;
+    
+    
+    }
+
+
+    .col-lg-5 {width: 41.66%;
+    
+    }
+
+    .col-lg-6 {
+      width: 50%;
+      padding-right: 35px;
+    }
+
+
+    .col-lg-7 {width: 57.33%;
+      padding: 0 4% 0 0;
+    
+    }
+
+
+    .col-lg-8 {width: 66.66%;
+    
+    }
+
+    .wrapper-img-lg {
+      width: 70%;
+      margin: 0 auto;
+      
+  
+  }
+
+    .pad-top-lg {
+      margin-top: 10%;
+    }
+
+}

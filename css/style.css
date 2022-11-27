@@ -65,7 +65,7 @@ a:active { /* selected link */
 .lila-bg {
 background-color: #D8D2FD;} 
 
-.logo {max-width: 60px;
+.logo {max-width: 50px;
        float: left;
        
 }
@@ -93,7 +93,7 @@ between the hero section and the nav bar**/
 
 nav {display: inline; 
     float: right;
-    margin-top: 15px;
+    margin-top: 10px;
 }
     
 

@@ -57,7 +57,7 @@ a:active { /* selected link */
 .container {
     max-width: 1200px;
     padding: 15px 15px 0px 15px;
-   margin: 0px auto;
+   margin: auto;
 }
 
 
@@ -194,17 +194,17 @@ footer svg {
 /** hero section **/
 
 .img-glo {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
+    
 }
 
 
 
 #hero {
-    background-color: #F5F5F5;
-    
+    background-color: #F5F5F5; 
     padding-top: 50px;
-    display: inline-block;
+    padding-bottom: 30px;
     width: 100%;
   }
 
@@ -314,7 +314,8 @@ span {display: block;}
 
       .col-md-2 {
         width: 16.66%;
-        padding: 0 20px;
+ 
+       
       }
 
       .col-md-3 {
@@ -337,8 +338,10 @@ span {display: block;}
       }
 
       .col-md-10 {
-        width: 83.33%;
-        padding-left: 40px;
+        width: 77%;
+        margin-left: 20px;
+       
+        
       }
 
       .wrapper-img {
@@ -360,6 +363,12 @@ span {display: block;}
 
 
 @media only screen and (min-width: 1024px) {
+
+  .img-glo {
+    width: 150px;
+    height: 170px;
+    padding-top: 20%;
+}
 
     .container {
         max-width: 800px;
@@ -402,12 +411,11 @@ span {display: block;}
     
     }
 
-    .col-lg-2 {
-      width: 16.66%;
-      padding: 0 20px;
-    }
+   
 
-    .col-lg-3 {width: 25%;}
+    .col-lg-3 {width: 25%;
+    
+    }
 
     .col-lg-4 {width: 33.33%;
       padding: 0 0 0 4%;
@@ -421,8 +429,8 @@ span {display: block;}
     }
 
     .col-lg-6 {
-      width: 50%;
-      padding-right: 35px;
+      width: 49%;
+      padding: 4% 4% 0 0;
     }
 
 
@@ -436,6 +444,10 @@ span {display: block;}
     
     }
 
+   
+
+    
+
     .wrapper-img-lg {
       width: 70%;
       margin: 0 auto;
@@ -443,8 +455,9 @@ span {display: block;}
   
   }
 
-    .pad-top-lg {
-      margin-top: 10%;
-    }
+   
+
+   
+  
 
 }

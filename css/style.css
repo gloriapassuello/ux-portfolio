@@ -289,6 +289,30 @@ span {display: block;}
   }
 
 
+/*caseStudyNav*/
+
+
+#caseStudyNav { position: sticky;
+       top: 200px;
+       display: inline-block;
+
+
+}
+
+#caseStudyNav li { display: block;
+  padding: 1.5em 0 1.5em 0;
+  transform: rotate(90deg);
+  
+
+
+}
+
+#caseStudyNav a { text-decoration: none;
+  
+
+
+}
+
 
 
   

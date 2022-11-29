@@ -55,11 +55,10 @@ a:active { /* selected link */
 
 /* Layout universal styling */
 .container {
-    max-width: 1200px;
-    padding: 15px 15px 0px 15px;
+    max-width: 800px;
+    padding: 0px 15px 0px 15px;
    margin: auto;
 }
-
 
 
 .lila-bg {
@@ -226,9 +225,25 @@ footer svg {
     text-align: center;
 }
 
+.socials a {text-decoration: none;
+
+
+}
+
+.socials a:hover { text-decoration: none;
+
+
+}
+
+.socials a:active { text-decoration: none;
+
+
+}
+
+
 /** styling about.html **/
 
-.img-about {max-width: 80%;}
+.img-about {max-width: 100%;}
 
 #glo-flip {float: left;}
 
@@ -289,30 +304,12 @@ span {display: block;}
   }
 
 
-/*caseStudyNav*/
-
-
-#caseStudyNav { position: sticky;
-       top: 200px;
-       display: inline-block;
-
-
-}
-
-#caseStudyNav li { display: block;
-  padding: 1.5em 0 1.5em 0;
-  transform: rotate(90deg);
+  #caseStudyNav { position: fix;
+    top: 200px;
+    display: none;
   
-
-
-}
-
-#caseStudyNav a { text-decoration: none;
   
-
-
-}
-
+  }
 
 
   
@@ -349,12 +346,16 @@ span {display: block;}
 
       .col-md-4 {
         width: 33.33%;
-        padding: 0 20px;
+        padding: 0 10px 0 0 ;
       }
 
       .col-md-5 {width: 41.66%;}
 
-      .col-md-7 {width: 58.33%;}
+      .col-md-7 {width: 57.33%;
+        padding: 0 4% 0 0;
+      
+      
+      }
 
       .col-md-8 {
         width: 70%;
@@ -394,11 +395,6 @@ span {display: block;}
     padding-top: 20%;
 }
 
-    .container {
-        max-width: 800px;
-        margin-left: auto;
-        margin-right: auto;
-      }
 
     
     .container2 {
@@ -427,14 +423,6 @@ span {display: block;}
     
     }
 
-
-    #about-page .row {padding: 0 ;
-       
-
-        
-    
-    }
-
    
 
     .col-lg-3 {width: 25%;
@@ -448,27 +436,15 @@ span {display: block;}
     }
 
 
-    .col-lg-5 {width: 41.66%;
-    
-    }
-
     .col-lg-6 {
       width: 49%;
       padding: 4% 4% 0 0;
     }
 
 
-    .col-lg-7 {width: 57.33%;
-      padding: 0 4% 0 0;
-    
-    }
-
-
     .col-lg-8 {width: 66.66%;
     
     }
-
-   
 
     
 
@@ -479,9 +455,37 @@ span {display: block;}
   
   }
 
-   
 
-   
-  
+/*caseStudyNav*/
+
+
+#caseStudyNav { position: fixed;
+  top: 150px;
+  display: inline-block;
+
+
+}
+
+#caseStudyNav li { display: block;
+padding: 1.5em 0 1.5em 0;
+transform: rotate(90deg);
+
+
+
+}
+
+#caseStudyNav a { text-decoration: none;
+
+
+
+}
+
+
+#discover, #validate, #design, #iterate, #reflect, #ideate { padding-top: 50px;
+
+
+
+} 
+
 
 }

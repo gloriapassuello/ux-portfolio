@@ -5,6 +5,55 @@ html {
 
     }
 
+/**start fontface**/
+
+@font-face {
+  font-family: 'Raleway';
+  font-weight: 600;
+  src: url('../fonts/raleway/Raleway-SemiBold.ttf') format('truetype');
+  
+  }
+  
+  @font-face {
+  font-family: 'Raleway';
+  font-weight: 700;
+  src: url('../fonts/raleway/Raleway-Bold.ttf') format('truetype');
+  
+  }
+  
+  @font-face {
+  font-family: 'Mulish';
+      font-weight: 700;
+  src: url('../fonts/mulish/Mulish-Bold.ttf') format('truetype');
+  
+  }
+  
+  
+  @font-face {
+  font-family: 'Mulish';
+      font-weight: 400;
+  src: url('../fonts/mulish/Mulish-Regular.ttf') format('truetype');
+  
+  }
+
+  @font-face {
+    font-family: 'Mulish';
+        font-weight: 300;
+    src: url('../fonts/mulish/Mulish-Light.ttf') format('truetype');
+    
+    }
+  
+  
+  @font-face {
+  font-family: 'Mulish';
+      font-weight: 500;
+  src: url('../fonts/mulish/Mulish-Medium.ttf') format('truetype');
+  
+  }
+
+/**finish fonface**/
+
+
 body {background-color: #FCFCFB;
     font-family: 'Mulish', sans-serif; 
     color: #14243C; 
@@ -261,7 +310,10 @@ footer svg {
 
 }
 
+.padding-top {padding-top: 20%;
 
+
+}
 
 
 .border {border-left: solid; 
@@ -460,7 +512,7 @@ span {display: block;}
 
 
 #caseStudyNav { position: fixed;
-  top: 150px;
+  top: 120px;
   display: inline-block;
 
 
